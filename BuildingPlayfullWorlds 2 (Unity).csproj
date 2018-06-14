@@ -515,6 +515,7 @@
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\ExplosionOntrigger.cs" />
     <Compile Include="Assets\Script\Gun.cs" />
+    <Compile Include="Assets\Script\MiniMapScript.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\Arrow.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowNotch.cs" />
     <Compile Include="Assets\VRTK\Examples\ExampleResources\Scripts\Archery\ArrowSpawner.cs" />
