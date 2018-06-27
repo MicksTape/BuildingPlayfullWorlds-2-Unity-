@@ -1,0 +1,95 @@
+Layer Selection: Default
+Brush Max Size: 10
+Brush Size: 7.3
+Fill Mode: True
+Fill Rate: 0.364
+
+Game Object: Assets/Assets Store/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_01.prefab
+Layer: Default
+Toggle: True
+Slider: 1
+Lock Orientation Toggle: False
+Random Rotation Toggle: True
+Random Rotation X: False
+Random Rotation Y: True
+Random Rotation Z: False
+Random Scale Toggle: False
+Random Scale Min: 0.1
+Random Scale Max: 1
+Fixed Rotation Toggle: False
+Fixed Rotation X: 0
+Fixed Rotation Y: 0
+Fixed Rotation Z: 0
+Depth: 0
+
+Game Object: Assets/Assets Store/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_02.prefab
+Layer: Default
+Toggle: True
+Slider: 1
+Lock Orientation Toggle: False
+Random Rotation Toggle: True
+Random Rotation X: False
+Random Rotation Y: True
+Random Rotation Z: False
+Random Scale Toggle: False
+Random Scale Min: 0.1
+Random Scale Max: 1
+Fixed Rotation Toggle: False
+Fixed Rotation X: 0
+Fixed Rotation Y: 0
+Fixed Rotation Z: 0
+Depth: 0
+
+Game Object: Assets/Assets Store/PolygonWar/Prefabs/Environments/SM_Env_Tree_Dead_03.prefab
+Layer: Default
+Toggle: True
+Slider: 1
+Lock Orientation Toggle: False
+Random Rotation Toggle: True
+Random Rotation X: False
+Random Rotation Y: True
+Random Rotation Z: False
+Random Scale Toggle: False
+Random Scale Min: 0.1
+Random Scale Max: 1
+Fixed Rotation Toggle: False
+Fixed Rotation X: 0
+Fixed Rotation Y: 0
+Fixed Rotation Z: 0
+Depth: 0
+
+Game Object: Assets/Assets Store/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_02.prefab
+Layer: Default
+Toggle: True
+Slider: 1
+Lock Orientation Toggle: False
+Random Rotation Toggle: True
+Random Rotation X: False
+Random Rotation Y: True
+Random Rotation Z: False
+Random Scale Toggle: False
+Random Scale Min: 0.1
+Random Scale Max: 1
+Fixed Rotation Toggle: False
+Fixed Rotation X: 0
+Fixed Rotation Y: 0
+Fixed Rotation Z: 0
+Depth: 0
+
+Game Object: Assets/Assets Store/PolygonWar/Prefabs/Environments/SM_Env_Tree_Destroyed_04.prefab
+Layer: Default
+Toggle: True
+Slider: 1
+Lock Orientation Toggle: False
+Random Rotation Toggle: True
+Random Rotation X: False
+Random Rotation Y: True
+Random Rotation Z: False
+Random Scale Toggle: False
+Random Scale Min: 0.1
+Random Scale Max: 1
+Fixed Rotation Toggle: False
+Fixed Rotation X: 0
+Fixed Rotation Y: 0
+Fixed Rotation Z: 0
+Depth: 0

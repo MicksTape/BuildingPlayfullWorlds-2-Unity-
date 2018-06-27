@@ -347,6 +347,11 @@
     <None Include="Assets\Assets Store\LowPolyWaterv2\Shaders\LowPolyWaterAdvanced.shader" />
     <None Include="Assets\Assets Store\LowPolyWaterv2\Shaders\LowPolyWaterLite.shader" />
     <None Include="Assets\Assets Store\PolygonWar\Materials\Shader\Particle VertexLit Blended_Backface.shader" />
+    <None Include="Assets\Assets Store\PrefabBrush\Editor\Data\SaveData.txt" />
+    <None Include="Assets\Assets Store\PrefabBrush\README.txt" />
+    <None Include="Assets\Assets Store\nuclear\README.txt" />
+    <None Include="Assets\Assets Store\nuclear\shaders\Nuke.shader" />
+    <None Include="Assets\Assets Store\nuclear\shaders\Steam.shader" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShader.shader" />
     <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
@@ -368,6 +373,7 @@
     <None Include="Assets\Oculus\VR\Resources\Unlit Transparent Color.shader" />
     <None Include="Assets\Oculus\VR\Shaders\OVRColorRampAlpha.shader" />
     <None Include="Assets\Oculus\VR\Shaders\Unlit Crosshair.shader" />
+    <None Include="Assets\PrefabBrush\Editor\Data\SaveData.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />

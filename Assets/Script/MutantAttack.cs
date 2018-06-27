@@ -93,7 +93,6 @@ public class MutantAttack : MonoBehaviour
         }
         else
         {
-            //navComponent.SetDestination (this.transform.position);
             anim.SetBool("isIdle", true);
             anim.SetBool("isRunning", false);
             anim.SetBool("isAttacking", false);
@@ -101,10 +100,8 @@ public class MutantAttack : MonoBehaviour
 
         }
 
-        //Check if health has fallen below zero
         if (currentHealth <= 0)
         {
-            //if health has fallen below zero, deactivate it 
             if (!inDead)
             {
                 StartCoroutine(dead());
@@ -119,7 +116,6 @@ public class MutantAttack : MonoBehaviour
     IEnumerator dead()
     {
         inDead = true;
-         //navComponent.SetDestination (this.transform.position);
         capCol.enabled = false;
         anim.SetBool("isDeath", true);
         anim.SetBool("isIdle", false);
@@ -129,16 +125,7 @@ public class MutantAttack : MonoBehaviour
         rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
         yield return new WaitForSeconds(2.999f);
         Destroy(gameObject);
-            //healthbar.value = 100;
-            //transform.position = spawnPoint;
-            //capCol.enabled = true;
-            //rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-            //rigidbody.constraints = RigidbodyConstraints.None;
-            //anim.SetBool("isDeath", false);
-            //anim.SetBool("isIdle", true);
-            //anim.SetBool ("isRunning", false);
-            //anim.SetBool ("isCrying", false);
-            //anim.SetBool ("isAttacking", false);
+
          StopCoroutine(dead());
          GameObject.FindGameObjectsWithTag("Enemy");
   

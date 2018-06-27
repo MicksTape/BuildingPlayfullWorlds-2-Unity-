@@ -12,9 +12,9 @@ public class fpsAttack : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-        if (other.gameObject.tag == "LeftHand")
+        if (other.gameObject.tag == "Bullet")
         {
-            print("Mutant hit");
+            print("BulletHit");
             currentHealth -= 1;
             healthbar.value -= 1;
 
