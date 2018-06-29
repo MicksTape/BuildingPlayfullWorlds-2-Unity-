@@ -75,7 +75,7 @@ public class MutantAttack : MonoBehaviour
             if (direction.magnitude > 2)
             {
                 //Speed
-                this.transform.Translate(0, 0, 0.01f);
+                this.transform.Translate(0, 0, 0.02f);
                 //navComponent.SetDestination(player.position);
 
                 anim.SetBool("isRunning", true);

@@ -31,7 +31,7 @@ public class fpsAttack : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		respawnPosition = GameObject.FindGameObjectWithTag ("Respawn").transform;
+		respawnPosition = GameObject.FindGameObjectWithTag ("Res").transform;
 	}
 
 	// Update is called once per frame

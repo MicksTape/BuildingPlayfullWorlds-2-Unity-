@@ -20,6 +20,10 @@ TagManager:
   - Blade
   - Rocket
   - Nuke
+  - Manager
+  - BOAT
+  - Res
+  - Plane
   layers:
   - Default
   - TransparentFX

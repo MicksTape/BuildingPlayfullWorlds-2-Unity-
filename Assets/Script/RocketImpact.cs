@@ -4,31 +4,17 @@ using UnityEngine;
 
 public class RocketImpact : MonoBehaviour {
 
-    public GameObject Rocket;
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject Explosion;
 
     private void OnTriggerEnter(Collider col)
     {
-        switch (col.gameObject.tag)
+
+        if (col.gameObject.tag == "BOAT")
         {
-            case "Rocket":
+            Explosion.SetActive(true);
 
-                GameObject.FindGameObjectWithTag("Nuke").SetActive(true);
-                GameObject.FindGameObjectWithTag("Rocket").SetActive(false);
-
-
-                print("Boom");
-                break;
         }
+
     }
 
 }

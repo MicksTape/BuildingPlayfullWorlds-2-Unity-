@@ -515,6 +515,9 @@
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRTrackedRemote.cs" />
     <Compile Include="Assets\Oculus\VR\Scripts\Util\OVRWaitCursor.cs" />
+    <Compile Include="Assets\Script\AudioTrigger.cs" />
+    <Compile Include="Assets\Script\DestroyAfter.cs" />
+    <Compile Include="Assets\Script\DestroyAfterRocket.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\EnemyBullet.cs" />
     <Compile Include="Assets\Script\EnemySoldierFollow.cs" />

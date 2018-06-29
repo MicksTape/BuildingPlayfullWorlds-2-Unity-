@@ -49,7 +49,6 @@ public class FriendlyAttack : MonoBehaviour
         anim = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody>();
         capCol = GetComponent<CapsuleCollider>();
-        //navComponent = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
 
     }
 
@@ -59,19 +58,19 @@ public class FriendlyAttack : MonoBehaviour
 
         Vector3 direction = player.position - this.transform.position;
         float angle = Vector3.Angle(direction, this.transform.forward);
-        if (Vector3.Distance(player.position, this.transform.position) < 80 && angle < 140)
+        if (Vector3.Distance(player.position, this.transform.position) < 500 && angle < 280)
         {
 
             direction.y = 0;
 
             this.transform.rotation = Quaternion.Slerp(this.transform.rotation,
-                Quaternion.LookRotation(direction), 0.2f);
+                Quaternion.LookRotation(direction), 0.4f);
 
             anim.SetBool("isIdle", false);
             if (direction.magnitude > 2)
             {
                 //Speed
-                this.transform.Translate(0, 0, 0.01f);
+                this.transform.Translate(0, 0, 0.03f);
                 //navComponent.SetDestination(player.position);
 
                 anim.SetBool("isRunning", true);

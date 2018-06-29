@@ -12,6 +12,6 @@ public class EnemyBullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddRelativeForce(0, 0, BulletSpeed, ForceMode.Impulse);
-        Destroy(gameObject, 2f);
+        Destroy(gameObject, 1f);
     }
 }
