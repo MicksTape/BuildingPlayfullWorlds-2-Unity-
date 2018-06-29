@@ -27,7 +27,7 @@ public class ExplosionOntrigger : MonoBehaviour
                 effect.Stop();
                 Destroy(effect.gameObject, 1.0f);
             }
-            Destroy(gameObject);
+            
         }
     }
 }

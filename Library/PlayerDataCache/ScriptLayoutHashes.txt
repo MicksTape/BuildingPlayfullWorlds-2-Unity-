@@ -455,6 +455,7 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 2e9d03ba5ebf86f79e28271ebbce8cc5 Assembly-CSharp.dll:.OVRMicInput
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 7a38b46daa370b7cb2b8478f41a3773d Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_ObjectControl_UnityEvents
+211160d4598ebb5d3516f25f49c6c829 Assembly-CSharp.dll:.DestroyAfter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRTK.Examples.RendererOffOnDash
 715ee802f49103c54cba7971ac57cac0 Assembly-CSharp.dll:UnityEngine.EventSystems.OVRInputModule
 584795015275d7765225ad872c0e8bd8 Assembly-CSharp.dll:.OVRGrabber
@@ -493,12 +494,14 @@ dcbad533755db2258448fa16328415f1 Assembly-CSharp.dll:VRTK.VRTK_ControllerTooltip
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:LPWAsset.LPWReflection
 327ca7b7291af74700c58954addea881 Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_BasicTeleport_UnityEvents
 428a2d3b6f5722e59d703e9bb8bfaec6 Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_SDKManager_UnityEvents
+211160d4598ebb5d3516f25f49c6c829 Assembly-CSharp.dll:.DestroyAfterRocket
 df621ec6ee18d8e0ffab7ab991ce31ae Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_BodyPhysics_UnityEvents
 b9c1412244569f4119b41a384d6a5ab0 Assembly-CSharp.dll:VRTK.Examples.Archery.BowAnimation
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:VRTK.Examples.Breakable_Cube
 5c8cb1a0675c0e686821e7fa81cc40af Assembly-CSharp.dll:VRTK.Examples.UseRotate
 5cc5152f7664eb1a237777f86196c2b2 Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_ControllerEvents_UnityEvents
 8122e4d8266ec9f46bf99e942227ee3e Assembly-CSharp.dll:VRTK.UnityEventHelper.VRTK_Button_UnityEvents
+981f9ee2e5807ce8b4a4c008be5d2c92 Assembly-CSharp.dll:.AudioTrigger
 a7fb925992eaa6c7ad4ddffedadd1fb5 Assembly-CSharp.dll:VRTK.Examples.LightSaber
 01a983730f96c20cc91823391ed40c4e Assembly-CSharp.dll:.OVRLipSyncContextTextureFlip
 9158b06f19abae13fc88cc34de4550f1 Assembly-CSharp.dll:.RocketLaunch
@@ -506,6 +509,3 @@ a7fb925992eaa6c7ad4ddffedadd1fb5 Assembly-CSharp.dll:VRTK.Examples.LightSaber
 efaacbc067f54d801b8ecfdac3af7084 Assembly-CSharp.dll:.OVRVoiceModContext
 7ec6fd827490fa4e8bc25e49960c3497 Assembly-CSharp.dll:.RocketImpact
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-981f9ee2e5807ce8b4a4c008be5d2c92 Assembly-CSharp.dll:.AudioTrigger
-211160d4598ebb5d3516f25f49c6c829 Assembly-CSharp.dll:.DestroyAfter
-211160d4598ebb5d3516f25f49c6c829 Assembly-CSharp.dll:.DestroyAfterRocket
