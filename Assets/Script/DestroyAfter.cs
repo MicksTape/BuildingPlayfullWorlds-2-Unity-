@@ -21,9 +21,7 @@ public class DestroyAfter : MonoBehaviour {
 
             yield return new WaitForSeconds(Duration);
             Destroy(gameObject);
-            GameObject.FindGameObjectWithTag("Manager").SetActive(false);
-            GameObject.FindGameObjectWithTag("Plane").SetActive(false);
-            Destroy(gameObject);
+
         }
     }
 
